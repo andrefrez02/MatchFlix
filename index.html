@@ -7,9 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MatchFlix - Filmes e Séries</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
-<body class="">
+<body>
   <header class="wrapper">
     <nav class="nav">
       <div class="nav-logo">
@@ -17,11 +18,11 @@
       </div>
       <div class="nav-links">
         <a class="active" href="./index.html">Home</a>
-        <a href="./projetos.html">Filmes</a>
-        <a href="./contato.html">Séries</a>
-        <a href="./contato.html">Categorias</a>
-        <a href="./contato.html">Preço</a>
-        <a href="./contato.html">Sobre</a>
+        <a href="#filmes">Filmes</a>
+        <a href="#series">Séries</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#precos">Preço</a>
+        <a href="#sobre">Sobre</a>
       </div> 
       <div class="nav-menu">
         <svg class="nav-menu__icones" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>    
@@ -30,8 +31,8 @@
       </div>
     </nav>
   </header>
-  <section class="wrapper">
-    <div class="boas-vindas">
+  <section class="boas-vindas__fundo">
+    <div class="boas-vindas wrapper">
       <h1>
         Descubra <br />
         Conecte-se e <br />
@@ -40,8 +41,49 @@
       <p>
         Encontre os lançamentos de filmes imperdíveis e <br /> viva emoções incríveis!
       </p>
+      <div class="boas-vindas__botoes">
+        <a href="#comecar">Começar</a>
+        <a href="#planos">Planos</a>
+      </div>
     </div>
   </section>
+  <section class="caracteristicas__fundo">
+    <div class="caracteristicas wrapper">
+      <h1>Principais características</h1>
+      <div class="caracteristicas__grid">
+        <div class="caracteristicas__item">
+          <h2>Experiência imersiva e personalizada</h2>
+          <p>Oferecemos uma experiência de usuário envolvente e personalizada, adaptando-se às preferências individuais</p>
+        </div>
+        <div class="caracteristicas__item">
+          <h2>Navegação intuitiva e design responsiva</h2>
+          <p>Levamos a sério a beleza e intuitividade de nosso site e garantimos uma excelente experiência.</p>
+        </div>
+        <div class="caracteristicas__item">
+          <h2>Conteúdo de alta qualidade e atualizado</h2>
+          <p>Descubra o que está em alta no momento.</p>
+        </div>
+        <div class="caracteristicas__item">
+          <h2>Interação e engajamento com a comunidade</h2>
+          <p>Temos uma comunidade ativa e engajada, que compartilham opiniões e recomendações.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="filmes__fundo">
+    <h1>Filmes mais aclamados e desejados</h1>
+    <div class="filmes wrapper">
+      <img class="filme" src="./imgs/aquaman.jpeg" alt="">
+      <img class="filme" src="./imgs/got.jpg" alt="">
+      <img class="filme" src="./imgs/avatar.jpeg" alt="">
+      <img class="filme" src="./imgs/hp.jpeg" alt="">
+      <img class="filme" src="./imgs/hpAF.jpg" alt="">
+      <img class="filme" src="./imgs/velozes.jpg" alt="">
+    </div>
+  </section>
+  <footer>
+    Produzido e desenvolvido por André, Jonathan e Renan <br />
+    <small>Todos os direitos reservados ©</small>
+  </footer>
 </body>
-
 </html>
